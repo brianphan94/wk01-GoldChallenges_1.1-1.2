@@ -7,3 +7,24 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
+
+let favMovie = {
+    nameOfMovie: 'The Terminator',
+    runTime: '1h 47min',
+    characters: {
+        terminator: {
+            actor: 'Arnold Schwarzenegger',
+            weapon: 'big guns',
+        },
+        sarahConnor: {
+            actor: 'Linda Hamilton',
+            weapon: 'big guns',
+        },
+        traxler: {
+            actor: 'Paul Winfield',
+            weapon 'big guns',
+        },
+    genre: 'Action/Sci-fi'
+}
+
+console.log(Object.keys(favMovie));
