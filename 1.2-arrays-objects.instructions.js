@@ -14,17 +14,16 @@ let favMovie = {
     characters: {
         terminator: {
             actor: 'Arnold Schwarzenegger',
-            weapon: 'big guns',
+            weapon: 'big guns'
         },
         sarahConnor: {
             actor: 'Linda Hamilton',
-            weapon: 'big guns',
+            weapon: 'big guns'
         },
         traxler: {
             actor: 'Paul Winfield',
-            weapon 'big guns',
+            weapon: 'big guns'
         },
     genre: 'Action/Sci-fi'
-}
-
-console.log(Object.keys(favMovie));
+}}
+console.log(favMovie);

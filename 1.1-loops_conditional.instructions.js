@@ -16,7 +16,6 @@ for (let i = 0; i <= 10; i++){
 }
 
 function callback(){
-    let number = ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10')
     for (let i = 0; i < number.length; i++) {
         if (i % 2 === 0) {
             console.log('the number is even');
@@ -25,4 +24,4 @@ function callback(){
         }
     }
 }
-console.log(number);
+console.log(x);
