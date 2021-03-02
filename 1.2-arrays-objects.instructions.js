@@ -11,19 +11,22 @@
 let favMovie = {
     nameOfMovie: 'The Terminator',
     runTime: '1h 47min',
-    characters: {
-        terminator: {
+    characters: [
+        terminator= {
             actor: 'Arnold Schwarzenegger',
             weapon: 'big guns'
         },
-        sarahConnor: {
+        sarahConnor= {
             actor: 'Linda Hamilton',
             weapon: 'big guns'
         },
-        traxler: {
+        traxler= {
             actor: 'Paul Winfield',
             weapon: 'big guns'
-        },
+        }],
     genre: 'Action/Sci-fi'
-}}
-console.log(favMovie);
+}
+console.log(favMovie.nameOfMovie);
+console.log(favMovie.runTime);
+console.log(favMovie.characters);
+console.log(favMovie.genre);
