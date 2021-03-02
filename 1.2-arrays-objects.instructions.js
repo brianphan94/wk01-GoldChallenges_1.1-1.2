@@ -30,3 +30,4 @@ console.log(favMovie.nameOfMovie);
 console.log(favMovie.runTime);
 console.log(favMovie.characters);
 console.log(favMovie.genre);
+console.log(favMovie.characters[2].weapon);
